@@ -12,4 +12,4 @@ end
 test do
 system "#{bin}/adi"
 end
-end"
+end
