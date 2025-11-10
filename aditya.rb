@@ -1,4 +1,4 @@
-class Adi < Formula
+class Aditya < Formula
      desc "Interactive CLI portfolio for Aditya Garyali"
      homepage "https://github.com/sagaryali/adi-cli"
 url "https://github.com/sagaryali/adi-cli/archive/refs/tags/v2.0.1.tar.gz"
