@@ -1,30 +1,21 @@
 class Adi < Formula
-  desc "Personal CLI command for adi"
-  homepage "https://github.com/sagaryali/adi-cli"
-  url "https://github.com/sagaryali/adi-cli/archive/v1.0.0.tar.gz"
-  sha256 "efc052a5dbe3f2cf1af718ff8ca7610992d5d5c7929ecca3592ca10a9eb8852b"
-  version "1.0.0"
+     desc "Interactive CLI portfolio for Aditya Garyali"
+     homepage "https://github.com/sagaryali/adi-cli"
+     url "https://github.com/sagaryali/adi-cli/archive/v2.0.0.tar.gz"
+     sha256 "8c3b037eb85c189556c45c389700828fd9bb3797176c28159e2c698c132d3aeb"
+     version "2.0.0"
 
-  def install
-    bin.install "adi"
-  end
+     def install
+       bin.install "adi"
+     end
 
-  def caveats
-    <<~EOS
-    ___    ____  ____
-   /   |  / __ \/  _/
-  / /| | / / / // /  
- / ___ |/ /_/ // /   
-/_/  |_/_____/___/   
-                     
-Hello! This is the adi command.
-More information coming soon...
+     def caveats
+       <<~EOS
+       Run 'adi' to launch the interactive portfolio!
+       EOS
+     end
 
-Type 'adi' anytime to see this message again!
-    EOS
-  end
-
-  test do
-    system "#{bin}/adi"
-  end
-end
+     test do
+       system "#{bin}/adi"
+     end
+   end
