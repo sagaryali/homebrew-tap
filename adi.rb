@@ -10,10 +10,15 @@ class Adi < Formula
      end
 
      def caveats
-       <<~EOS
-       Run 'adi' to launch the interactive portfolio!
-       EOS
-     end
+  <<~EOS
+  ╔════════════════════════════════════════════════╗
+  ║  NEXT STEP                                     ║
+  ║  👉  Type:  adi                                ║
+  ║  to launch Aditya's CLI Mini-Portfolio         ║
+  ╚════════════════════════════════════════════════╝
+  EOS
+end
+
 
      test do
        system "#{bin}/adi"
