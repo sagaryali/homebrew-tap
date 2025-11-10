@@ -6,7 +6,7 @@ url "https://github.com/sagaryali/adi-cli/archive/refs/tags/v2.0.1.tar.gz"
      version "2.0.1"
 
      def install
-       bin.install "adi"
+       bin.install "aditya"
      end
 
      def caveats
